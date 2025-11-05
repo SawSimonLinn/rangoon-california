@@ -2,7 +2,7 @@ import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { culturalInfo } from "@/lib/data";
 import { Card, CardContent } from "@/components/ui/card";
-import { Leaf, MapPin, Sparkles } from "lucide-react";
+import { Leaf, MapPin, Sparkles, Heart } from "lucide-react";
 
 export default function AboutPage() {
   const foundersImage = PlaceHolderImages.find(
@@ -15,21 +15,22 @@ export default function AboutPage() {
     <div className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <header className="text-center mb-16">
-          <h1 className="font-headline text-5xl md:text-7xl font-bold text-primary">
-            Our Story
+          <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">
+            About Us
           </h1>
-          <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            From Yangon to California, a journey of flavor and tradition.
+          <p className="mt-4 text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            Discover the story behind Rangoon Flavors and our journey from Burma
+            to California.
           </p>
         </header>
 
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-24">
           <div className="order-2 lg:order-1">
-            <h2 className="font-headline text-4xl font-bold text-secondary mb-4 flex items-center gap-3">
-              <MapPin className="h-8 w-8 text-primary" />
+            <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl font-bold text-secondary mb-4 flex items-center gap-3">
+              <MapPin className="h-6 w-6 sm:h-8 sm:w-8 text-primary" />
               The Journey
             </h2>
-            <p className="text-lg text-muted-foreground whitespace-pre-wrap">
+            <p className="text-base sm:text-lg text-muted-foreground whitespace-pre-wrap leading-relaxed">
               {culturalInfo.story}
             </p>
           </div>
@@ -57,11 +58,11 @@ export default function AboutPage() {
             </div>
           )}
           <div>
-            <h2 className="font-headline text-4xl font-bold text-secondary mb-4 flex items-center gap-3">
-              <Leaf className="h-8 w-8 text-primary" />
-              Our Founders
+            <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl font-bold text-secondary mb-4 flex items-center gap-3">
+              <Heart className="h-6 w-6 sm:h-8 sm:w-8" />
+              Our Story
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
               Our family's love for food is at the heart of Rangoon California.
               Led by Chef Nway, our team is dedicated to preserving the
               authenticity of Burmese recipes while embracing the fresh, local
@@ -73,11 +74,11 @@ export default function AboutPage() {
 
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
-            <h2 className="font-headline text-4xl font-bold text-secondary mb-4 flex items-center gap-3">
-              <Sparkles className="h-8 w-8 text-primary" />
+            <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl font-bold text-secondary mb-4 flex items-center gap-3">
+              <Sparkles className="h-6 w-6 sm:h-8 sm:w-8 text-primary" />
               Cultural Inspirations
             </h2>
-            <p className="text-lg text-muted-foreground whitespace-pre-wrap">
+            <p className="text-base sm:text-lg text-muted-foreground whitespace-pre-wrap leading-relaxed">
               {culturalInfo.inspiration}
             </p>
           </div>

@@ -46,12 +46,12 @@ export default function GalleryPage() {
     <div className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <header className="text-center mb-12">
-          <h1 className="font-headline text-5xl md:text-7xl font-bold text-primary">
+          <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">
             Gallery
           </h1>
-          <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            A glimpse into the world of Rangoon California—our food, our space,
-            and our community.
+          <p className="mt-4 text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            A visual journey through our culinary heritage and dining
+            experience.
           </p>
         </header>
 

@@ -95,10 +95,10 @@ export default function CulturePage() {
       <div className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <header className="text-center mb-16">
-            <h1 className="font-headline text-5xl md:text-7xl font-bold text-primary">
+            <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">
               Burmese Heritage
             </h1>
-            <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="mt-4 text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Discover the rich tapestry of culture that inspires our cuisine
               and our spirit.
             </p>
@@ -107,7 +107,7 @@ export default function CulturePage() {
           {/* Cultural Elements Carousel */}
           <div className="mb-20 relative z-10">
             <div className="max-w-5xl mx-auto px-4 sm:px-6">
-              <h2 className="font-headline text-3xl md:text-4xl text-center text-secondary mb-8">
+              <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl text-center text-secondary mb-8">
                 Cultural Treasures
               </h2>
               <div className="relative z-20">
@@ -156,7 +156,7 @@ export default function CulturePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start px-4 sm:px-6">
             <Card className="border-bamboo/50 shadow-md">
               <CardHeader>
-                <CardTitle className="font-headline text-2xl md:text-3xl text-secondary flex items-center gap-3">
+                <CardTitle className="font-headline text-xl sm:text-2xl md:text-3xl text-secondary flex items-center gap-3">
                   Sounds of Burma
                 </CardTitle>
               </CardHeader>
@@ -182,7 +182,7 @@ export default function CulturePage() {
 
             <Card className="border-bamboo/50 shadow-md">
               <CardHeader>
-                <CardTitle className="font-headline text-2xl md:text-3xl text-secondary flex items-center gap-3">
+                <CardTitle className="font-headline text-xl sm:text-2xl md:text-3xl text-secondary flex items-center gap-3">
                   A Few Burmese Words
                 </CardTitle>
               </CardHeader>

@@ -69,10 +69,10 @@ export default function MenuPage() {
     <div className="py-12 md:py-16 lg:py-24 rice-paper-bg">
       <div className="container mx-auto px-4 sm:px-6">
         <header className="text-center mb-12 md:mb-16">
-          <h1 className="font-headline text-4xl md:text-5xl lg:text-7xl font-bold text-primary">
+          <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">
             Our Menu
           </h1>
-          <p className="mt-4 text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="mt-4 text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             A culinary exploration of Burma's diverse and flavorful cuisine,
             made with love.
           </p>

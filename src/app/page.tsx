@@ -37,12 +37,12 @@ export default function Home() {
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/50 to-transparent" />
         <div className="relative z-10 flex flex-col items-center gap-6 p-4 animate-fade-in-down">
-          <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold text-white drop-shadow-lg">
-            Taste Burma in California
+          <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white drop-shadow-lg">
+            Rangoon Flavors
           </h1>
-          <p className="max-w-3xl text-lg md:text-xl text-cream drop-shadow-md">
-            An immersive journey into the heart of Burmese cuisine, where
-            traditional flavors meet California's warmth.
+          <p className="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 drop-shadow-md max-w-2xl mx-auto leading-relaxed">
+            Authentic Burmese cuisine crafted with tradition and love in the
+            heart of California
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <Button
@@ -67,8 +67,8 @@ export default function Home() {
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary">
-              Featured Dishes
+            <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
+              Experience Burma
             </h2>
             <p className="text-muted-foreground mt-3 text-lg max-w-2xl mx-auto">
               A selection of our most loved creations, passed down through
@@ -96,7 +96,7 @@ export default function Home() {
                     )}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     <div className="absolute bottom-0 w-full p-6 bg-gradient-to-t from-black/80 to-transparent">
-                      <CardTitle className="font-headline text-3xl text-white drop-shadow-md">
+                      <CardTitle className="font-headline text-xl sm:text-2xl md:text-3xl text-white drop-shadow-md">
                         {item.name}
                       </CardTitle>
                       <CardDescription className="font-accent text-lg text-gold drop-shadow-md">
@@ -137,10 +137,10 @@ export default function Home() {
 
       <section className="bg-secondary text-secondary-foreground py-20 md:py-28">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="font-headline text-4xl md:text-5xl font-bold">
+          <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl font-bold">
             Dine With Us
           </h2>
-          <p className="mt-4 max-w-2xl mx-auto text-lg text-white/80">
+          <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-white/80 leading-relaxed">
             Immerse yourself in an unforgettable dining experience. Book your
             table today and let us transport you to the heart of Burma.
           </p>
@@ -157,10 +157,10 @@ export default function Home() {
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold text-primary">
+            <h2 className="font-headline text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
               Frequently Asked Questions
             </h2>
-            <p className="text-muted-foreground mt-3 text-lg max-w-2xl mx-auto">
+            <p className="text-muted-foreground mt-3 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
               Everything you need to know for your visit
             </p>
           </div>

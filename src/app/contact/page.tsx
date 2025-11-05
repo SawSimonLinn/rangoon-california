@@ -82,20 +82,20 @@ export default function ContactPage() {
   }, [state, toast, form]);
 
   return (
-    <div className="py-16 md:py-24">
-      <div className="container mx-auto px-4">
-        <header className="text-center mb-16">
-          <h1 className="font-headline text-5xl md:text-7xl font-bold text-primary">
+    <div className="py-12 md:py-16 lg:py-24">
+      <div className="container mx-auto px-4 sm:px-6">
+        <header className="text-center mb-12 md:mb-16">
+          <h1 className="font-headline text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary">
             Get in Touch
           </h1>
-          <p className="mt-4 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="mt-4 text-sm sm:text-base md:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             We'd love to hear from you. Send us a message, or visit us at our
             location.
           </p>
         </header>
 
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
-          <div className="lg:col-span-2 space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 md:gap-12">
+          <div className="lg:col-span-2 space-y-6 md:space-y-8">
             <InfoBlock
               icon={<MapPin className="h-6 w-6 text-primary" />}
               title="Our Location"
@@ -121,10 +121,10 @@ export default function ContactPage() {
           <div className="lg:col-span-3">
             <Card className="border-bamboo/50 shadow-lg">
               <CardHeader>
-                <CardTitle className="font-headline text-3xl text-secondary">
+                <CardTitle className="font-headline text-xl sm:text-2xl md:text-3xl text-secondary">
                   Send a Message
                 </CardTitle>
-                <CardDescription>
+                <CardDescription className="text-sm sm:text-base">
                   Questions, feedback, or just want to say hello?
                 </CardDescription>
               </CardHeader>
@@ -180,7 +180,7 @@ export default function ContactPage() {
                     />
                     <Button
                       type="submit"
-                      className="w-full bg-accent hover:bg-accent/90 text-accent-foreground text-lg py-6"
+                      className="w-full bg-accent hover:bg-accent/90 text-accent-foreground text-base md:text-lg py-4 md:py-6"
                     >
                       Send Message
                     </Button>
@@ -192,7 +192,7 @@ export default function ContactPage() {
         </div>
 
         {mapImage && (
-          <div className="mt-24 h-96 w-full rounded-lg overflow-hidden shadow-xl relative">
+          <div className="mt-16 md:mt-24 h-64 md:h-96 w-full rounded-lg overflow-hidden shadow-xl relative">
             <Image
               src={mapImage.imageUrl}
               alt={mapImage.description}
@@ -215,11 +215,13 @@ const InfoBlock = ({
   title: string;
   lines: string[];
 }) => (
-  <div className="flex items-start gap-4">
-    <div className="bg-primary/10 p-3 rounded-full">{icon}</div>
+  <div className="flex items-start gap-3 md:gap-4">
+    <div className="bg-primary/10 p-2 md:p-3 rounded-full">{icon}</div>
     <div>
-      <h3 className="font-headline text-2xl text-secondary">{title}</h3>
-      <div className="text-muted-foreground text-lg">
+      <h3 className="font-headline text-lg sm:text-xl md:text-2xl text-secondary">
+        {title}
+      </h3>
+      <div className="text-muted-foreground text-sm sm:text-base md:text-lg">
         {lines.map((line, i) => (
           <p key={i}>{line}</p>
         ))}
