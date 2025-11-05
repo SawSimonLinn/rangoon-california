@@ -106,23 +106,23 @@ export default function CulturePage() {
 
           {/* Cultural Elements Carousel */}
           <div className="mb-20 relative z-10">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-5xl mx-auto px-4 sm:px-6">
               <h2 className="font-headline text-3xl md:text-4xl text-center text-secondary mb-8">
                 Cultural Treasures
               </h2>
               <div className="relative z-20">
                 <Carousel className="w-full max-w-5xl mx-auto">
-                  <CarouselContent className="relative z-30">
+                  <CarouselContent className="relative z-30 -ml-2 md:-ml-4">
                     {culturalElements.map((element) => {
                       return (
                         <CarouselItem
                           key={element.id}
-                          className="relative z-40"
+                          className="relative z-40 pl-2 md:pl-4"
                         >
-                          <div className="p-6 relative z-50">
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-background/95 backdrop-blur-sm rounded-lg shadow-lg p-6 border border-bamboo/50">
+                          <div className="p-3 md:p-6 relative z-50">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 items-center bg-background/95 backdrop-blur-sm rounded-lg shadow-lg p-4 md:p-6 border border-bamboo/50">
                               {/* Image Side */}
-                              <div className="relative h-64 lg:h-72 rounded-lg overflow-hidden shadow-lg z-50">
+                              <div className="relative h-48 md:h-64 lg:h-72 rounded-lg overflow-hidden shadow-lg z-50">
                                 <Image
                                   src={element.imageUrl}
                                   alt={element.imageAlt}
@@ -132,11 +132,11 @@ export default function CulturePage() {
                               </div>
 
                               {/* Content Side */}
-                              <div className="space-y-4 relative z-50">
-                                <h3 className="font-headline text-2xl md:text-3xl text-primary">
+                              <div className="space-y-3 md:space-y-4 relative z-50">
+                                <h3 className="font-headline text-xl md:text-2xl lg:text-3xl text-primary">
                                   {element.title}
                                 </h3>
-                                <p className="text-base text-muted-foreground leading-relaxed">
+                                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                                   {element.description}
                                 </p>
                               </div>
@@ -146,22 +146,22 @@ export default function CulturePage() {
                       );
                     })}
                   </CarouselContent>
-                  <CarouselPrevious className="-left-12 lg:-left-16 z-50" />
-                  <CarouselNext className="-right-12 lg:-right-16 z-50" />
+                  <CarouselPrevious className="left-2 md:-left-12 lg:-left-16 z-50" />
+                  <CarouselNext className="right-2 md:-right-12 lg:-right-16 z-50" />
                 </Carousel>
               </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start px-4 sm:px-6">
             <Card className="border-bamboo/50 shadow-md">
               <CardHeader>
-                <CardTitle className="font-headline text-3xl text-secondary flex items-center gap-3">
+                <CardTitle className="font-headline text-2xl md:text-3xl text-secondary flex items-center gap-3">
                   Sounds of Burma
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="relative h-80 w-full rounded-lg overflow-hidden">
+                <div className="relative h-48 md:h-60 lg:h-80 w-full rounded-lg overflow-hidden">
                   <Image
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Saung_Mandalay.jpg/960px-Saung_Mandalay.jpg"
                     alt="Traditional Burmese harp (saung-gauk) - the national instrument of Burma"
@@ -169,7 +169,7 @@ export default function CulturePage() {
                     className="object-cover"
                   />
                 </div>
-                <p className="text-muted-foreground">
+                <p className="text-sm md:text-base text-muted-foreground">
                   The national instrument of Burma is the{" "}
                   <strong>saung-gauk</strong>, an arched harp of elegant beauty
                   and ancient history. Its gentle, melodic tones have
@@ -182,21 +182,23 @@ export default function CulturePage() {
 
             <Card className="border-bamboo/50 shadow-md">
               <CardHeader>
-                <CardTitle className="font-headline text-3xl text-secondary flex items-center gap-3">
+                <CardTitle className="font-headline text-2xl md:text-3xl text-secondary flex items-center gap-3">
                   A Few Burmese Words
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-4">
+                <ul className="space-y-3 md:space-y-4">
                   {burmesePhrases.map((phrase) => (
                     <li
                       key={phrase.burmese}
                       className="border-b border-bamboo/30 pb-3"
                     >
-                      <p className="font-accent text-xl text-foreground">
+                      <p className="font-accent text-lg md:text-xl text-foreground">
                         {phrase.burmese}
                       </p>
-                      <p className="text-muted-foreground">{phrase.english}</p>
+                      <p className="text-sm md:text-base text-muted-foreground">
+                        {phrase.english}
+                      </p>
                     </li>
                   ))}
                 </ul>
@@ -205,27 +207,27 @@ export default function CulturePage() {
           </div>
 
           {/* Words of Wisdom Section */}
-          <div className="mt-20 relative z-10">
+          <div className="mt-16 md:mt-20 relative z-10 px-4 sm:px-6">
             <div className="max-w-4xl mx-auto">
-              <h2 className="font-headline text-3xl md:text-4xl text-center text-secondary mb-8">
+              <h2 className="font-headline text-2xl md:text-3xl lg:text-4xl text-center text-secondary mb-6 md:mb-8">
                 Words of Wisdom
               </h2>
-              <div className="space-y-8 relative z-30">
-                <blockquote className="text-center p-8 bg-gradient-to-r from-primary/5 to-accent/5 rounded-lg border-l-4 border-primary relative z-40 bg-background/95 backdrop-blur-sm shadow-lg">
-                  <p className="text-xl md:text-2xl font-accent text-foreground italic">
+              <div className="space-y-6 md:space-y-8 relative z-30">
+                <blockquote className="text-center p-6 md:p-8 bg-gradient-to-r from-primary/5 to-accent/5 rounded-lg border-l-4 border-primary relative z-40 bg-background/95 backdrop-blur-sm shadow-lg">
+                  <p className="text-lg md:text-xl lg:text-2xl font-accent text-foreground italic leading-relaxed">
                     "To understand the culture, one must first taste the food."
                   </p>
                 </blockquote>
 
-                <blockquote className="text-center p-8 bg-gradient-to-r from-accent/5 to-secondary/5 rounded-lg border-l-4 border-accent relative z-40 bg-background/95 backdrop-blur-sm shadow-lg">
-                  <p className="text-xl md:text-2xl font-accent text-foreground italic">
+                <blockquote className="text-center p-6 md:p-8 bg-gradient-to-r from-accent/5 to-secondary/5 rounded-lg border-l-4 border-accent relative z-40 bg-background/95 backdrop-blur-sm shadow-lg">
+                  <p className="text-lg md:text-xl lg:text-2xl font-accent text-foreground italic leading-relaxed">
                     "In Burma, every meal is a celebration of family and
                     community."
                   </p>
                 </blockquote>
 
-                <blockquote className="text-center p-8 bg-gradient-to-r from-secondary/5 to-primary/5 rounded-lg border-l-4 border-secondary relative z-40 bg-background/95 backdrop-blur-sm shadow-lg">
-                  <p className="text-xl md:text-2xl font-accent text-foreground italic">
+                <blockquote className="text-center p-6 md:p-8 bg-gradient-to-r from-secondary/5 to-primary/5 rounded-lg border-l-4 border-secondary relative z-40 bg-background/95 backdrop-blur-sm shadow-lg">
+                  <p className="text-lg md:text-xl lg:text-2xl font-accent text-foreground italic leading-relaxed">
                     "Generosity is the secret ingredient in every Burmese dish."
                   </p>
                 </blockquote>
