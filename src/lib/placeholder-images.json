@@ -1,0 +1,154 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A vibrant and bustling street food scene in Yangon, Burma at sunset.",
+      "imageUrl": "https://images.unsplash.com/photo-1535748020240-f647f81842ee?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1176",
+      "imageHint": "burmese street food"
+    },
+    {
+      "id": "laphet-thoke",
+      "description": "A beautifully plated Tea Leaf Salad (Laphet Thoke) with various nuts and fried beans.",
+      "imageUrl": "https://images.unsplash.com/photo-1645712429415-e613305e2300?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWElMjBsZWFmJTIwc2FsYWR8ZW58MHx8fHwxNzYyMzY0OTAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tea leaf salad"
+    },
+    {
+      "id": "mohinga",
+      "description": "A steaming bowl of Mohinga, a traditional Burmese fish noodle soup, garnished with cilantro and a lime wedge.",
+      "imageUrl": "https://images.unsplash.com/photo-1640542509430-f529fdfce835?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxidXJtZXNlJTIwc291cHxlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burmese soup"
+    },
+    {
+      "id": "shan-noodles",
+      "description": "A delicious serving of Shan Noodles, a popular Burmese dish with chicken and pickled vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1685209743819-dab6a8a853e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxidXJtZXNlJTIwbm9vZGxlc3xlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burmese noodles"
+    },
+    {
+      "id": "samosa-soup",
+      "description": "A warm and inviting bowl of Samosa Soup (Samusa Thouk).",
+      "imageUrl": "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzYW1vc2ElMjBzb3VwfGVufDB8fHx8MTc2MjM2NDkwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "samosa soup"
+    },
+    {
+      "id": "coconut-noodles",
+      "description": "Creamy Coconut Noodles (Ohn No Khauk Swe) in a bowl.",
+      "imageUrl": "https://images.unsplash.com/photo-1617854967326-9a663ab9ab45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2NvbnV0JTIwbm9vZGxlc3xlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coconut noodles"
+    },
+    {
+      "id": "faluda",
+      "description": "A colorful and sweet Faluda dessert drink.",
+      "imageUrl": "https://images.unsplash.com/photo-1635004750894-627d34515c14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkZXNzZXJ0JTIwZHJpbmt8ZW58MHx8fHwxNzYyMzY1NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dessert drink"
+    },
+    {
+      "id": "sticky-rice-mango",
+      "description": "Classic dessert of sticky rice with fresh mango slices.",
+      "imageUrl": "https://images.unsplash.com/photo-1639771884984-88fa62ac7e19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW5nbyUyMHN0aWNreSUyMHJpY2V8ZW58MHx8fHwxNzYyMzY0OTAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango sticky rice"
+    },
+    {
+      "id": "about-founders",
+      "description": "Portrait of the smiling founders of the restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1726661025476-be2e9f427565?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVzdGF1cmFudCUyMG93bmVyc3xlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant owners"
+    },
+    {
+      "id": "about-journey",
+      "description": "A stylized map showing the journey from Burma to California.",
+      "imageUrl": "https://images.unsplash.com/photo-1650526087824-163941841b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b3JsZCUyMG1hcHxlbnwwfHx8fDE3NjIyNzEyMDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "world map"
+    },
+    {
+      "id": "about-culture",
+      "description": "A display of traditional Burmese Thanaka paste.",
+      "imageUrl": "https://images.unsplash.com/photo-1660295650343-d8761449ddc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxidXJtZXNlJTIwY3VsdHVyZXxlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burmese culture"
+    },
+    {
+      "id": "gallery-food-1",
+      "description": "A close-up of a beautifully garnished Burmese curry.",
+      "imageUrl": "https://images.unsplash.com/photo-1585039257797-fc9df37b8b76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidXJtZXNlJTIwY3Vycnl8ZW58MHx8fHwxNzYyMzY0OTAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burmese curry"
+    },
+    {
+      "id": "gallery-food-2",
+      "description": "A top-down view of a table spread with various Burmese dishes.",
+      "imageUrl": "https://images.unsplash.com/photo-1543339443-d4af28e9a265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmb29kJTIwc3ByZWFkfGVufDB8fHx8MTc2MjI5NzQyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food spread"
+    },
+    {
+      "id": "gallery-food-3",
+      "description": "Freshly made Burmese spring rolls.",
+      "imageUrl": "https://images.unsplash.com/photo-1606525437679-037aca74a3e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcHJpbmclMjByb2xsc3xlbnwwfHx8fDE3NjIyNzc5Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spring rolls"
+    },
+    {
+      "id": "gallery-interior-1",
+      "description": "The warm and inviting interior of Rangoon Flavors restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1613274554329-70f997f5789f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZXN0YXVyYW50JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyMjc5OTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant interior"
+    },
+    {
+      "id": "gallery-interior-2",
+      "description": "A detail shot of the restaurant's decor, featuring Burmese art.",
+      "imageUrl": "https://images.unsplash.com/photo-1670835991701-0e7e90ccc05e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXN0YXVyYW50JTIwZGVjb3J8ZW58MHx8fHwxNzYyMjcyNjgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant decor"
+    },
+    {
+      "id": "gallery-event-1",
+      "description": "Guests enjoying a cultural event at the restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1616864765695-fc15e791440c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyZXN0YXVyYW50JTIwZXZlbnR8ZW58MHx8fHwxNzYyMzEyMTk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant event"
+    },
+    {
+      "id": "contact-map",
+      "description": "A map showing the location of the restaurant in California.",
+      "imageUrl": "https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2MjI3MTg5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    },
+    {
+      "id": "culture-harp",
+      "description": "A traditional Burmese harp, the saung-gauk.",
+      "imageUrl": "https://images.unsplash.com/photo-1664375910588-9452047e2d16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXJtZXNlJTIwaGFycHxlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burmese harp"
+    },
+    {
+      "id": "culture-weaving",
+      "description": "A close-up of intricate luntaya acheik weaving patterns.",
+      "imageUrl": "https://images.unsplash.com/photo-1688288448425-d4b86993daba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnVybWVzZSUyMGZhYnJpY3xlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "burmese fabric"
+    },
+    {
+      "id": "culture-festival",
+      "description": "Vibrant Water Festival (Thingyan) celebration with people splashing water and celebrating in traditional Burmese style.",
+      "imageUrl": "https://images.unsplash.com/photo-1562389773-1f34e77e7b6c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      "imageHint": "water festival celebration"
+    },
+    {
+      "id": "culture-longyi",
+      "description": "Traditional Burmese longyi (sarong-style garment) worn by both men and women, showcasing beautiful patterns and colors.",
+      "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      "imageHint": "traditional burmese clothing"
+    },
+    {
+      "id": "culture-thanaka",
+      "description": "Traditional Burmese thanaka paste being applied to face - a natural cosmetic and sun protection made from tree bark.",
+      "imageUrl": "https://images.unsplash.com/photo-1660295650343-d8761449ddc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxidXJtZXNlJTIwY3VsdHVyZXxlbnwwfHx8fDE3NjIzNjQ5MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thanaka paste traditional cosmetic"
+    },
+    {
+      "id": "culture-pagoda",
+      "description": "Golden Buddhist pagoda temple with intricate architecture, representing Myanmar's spiritual heritage.",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1697730401845-6326cd4a9e3b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+      "imageHint": "golden buddhist pagoda temple"
+    },
+    {
+      "id": "culture-puppetry",
+      "description": "Traditional Burmese marionette puppetry performance showing intricate string puppets in colorful costumes.",
+      "imageUrl": "https://images.unsplash.com/photo-1603804741501-2a8c31732d61?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VHJhZGl0aW9uYWwlMjBCdXJtZXNlJTIwbWFyaW9uZXR0ZSUyMHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
+      "imageHint": "traditional marionette puppetry"
+    }
+  ]
+}
